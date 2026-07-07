@@ -1,0 +1,8 @@
+torch
+torchvision
+spikingjelly
+timm
+numpy
+# LIF 默认 backend='cupy'; 装 cupy 更快(按CUDA选版本), 例: cupy-cuda12x
+# 不装cupy则把 model.py 里 backend='cupy' 全改为 backend='torch'
+cupy-cuda12x

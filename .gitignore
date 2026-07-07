@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+cifar_data_tv/
+log_*.txt
+*.log
